@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-CSV_FILE = "ca_population_by_race_annual_cdph.csv"
+CSV_FILE = "https://raw.githubusercontent.com/jizheng1/streamlit_test/main/ca_population_by_race_annual_cdph.csv"
 
 # ---- Load & clean ----
 df = pd.read_csv(CSV_FILE, engine="python")
